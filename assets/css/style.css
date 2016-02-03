@@ -1,0 +1,322 @@
+body {
+	margin: 1em;
+	background-color: #cccccc;
+	font-family: Metrophobic, sans-serif;
+	background-color: rgb(245, 245, 245);
+	background-image: url('../images/background.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+.container {	
+	display: inline-block;
+	width: 20%;
+	background-color: white;
+	vertical-align: text-top;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	min-height: 10em;
+	border-top: 0.5em;
+	border-style: solid;
+	border-width: 0.5em;
+	/*border-bottom-color: #ffffff;*/
+	/*border-left-color: #ffffff;*/
+	/*border-right-color: #ffffff;*//**/
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-bottom-style: hidden;
+
+}
+
+.wrapper { 
+	margin-top: 5em;
+	border-top: 1em;
+	border-color: #155085;
+}
+
+.container {
+	border-top: 6px solid;
+}
+
+.container.hybrid-servers {
+	border-color: rgb(65, 79, 134);
+}
+
+
+.container.dedicated-servers {
+	border-color: rgb(65, 79, 134);
+}
+
+.container.site-designer {  
+	border-color: rgb(127, 54, 102);
+}
+
+.container.email-marketing {
+	border-color: rgb(168, 218, 204); 
+
+}
+
+
+.hybrid-servers h2 {
+	color: rgb(82, 120, 163);
+	margin-top: -60px;
+
+}
+  
+.hybrid-servers p {
+	color: rgb(126, 126, 126);
+
+}
+
+.hybrid-servers div {
+	display: inline-block;
+
+}
+
+.price-from span{
+	display: block;
+	color: #000000;
+	font-size: 0.9rem;
+
+}
+
+.price-pound span {
+	display: block
+	color: #000000;
+	font-size: 4rem;
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: -2px;
+}
+
+.price-pence span {
+	display: block;
+	color: #000000;
+	font-size: 0.9rem;
+	position: relative;
+	
+}
+
+.price-month span {
+	display: block;
+	color: #000000;
+	font-size: 0.9rem;
+	position: relative;	
+}
+
+
+.dedicated-servers h2 {
+	color: rgb(82, 120, 163);
+	margin-top: -60px;
+}
+
+.dedicated-servers p {
+	color: rgb(126, 126, 126);
+}
+
+.dedicated-servers div {
+	display: inline-block;
+
+}
+
+.price-from span {
+	display: block;
+	color: #000000;
+	font-size: 0.9rem;
+}
+
+.price-pound {
+	display: block;
+	color: #000000;
+	font-size: 4em;
+	position: relative;
+}
+
+.price-pence {
+	color: #000000;
+	font-size: 0.9em;
+	position: relative;
+	bottom: 2em;
+}
+
+.price-month {
+	color: #000000;
+	font-size: 0.9em;
+	position: relative;
+	bottom: 2em;
+}
+
+.site-designer h2 {
+	color: rgb(94, 119, 164);
+	margin-top: -60px;
+}
+
+.site-designer p {
+	color: rgb(125, 125, 125); 
+}
+
+.site-designer div {
+	display: inline-block;
+}
+
+.price-from span {
+	display: block;
+	color: #000000;
+	font-size: 0.9rem;
+}
+
+.price-pound span {
+	display: block;
+	color: #000000;
+	font-size: 4rem;
+	position: relative;
+}
+
+.price-pence span {
+	display: block;
+	color: #000000;
+	font-size: 1.5em;
+	position: relative;
+}
+
+.price-month {
+	color: #000000;
+	font-size: 0.9em;
+	position: relative;
+	bottom: 2em;
+
+}
+
+
+.email-marketing h2 {
+	color: rgb(104, 117, 164);
+	margin-top: -60px;
+}
+
+.email-marketing p {
+	color: rgb(126, 126, 126)
+}
+
+.email-marketing div {
+	display: inline-block;
+	/*min-height: 1em;
+*/}
+
+.price-from span {
+	display: block;
+	color: #000000;
+	font-size: 0.9rem;
+
+}
+
+.price-pound span {
+	display: block;
+	color: #000000;
+	font-size: 4rem;
+	position: relative;
+}
+
+.price-pence span {
+	display: block;
+	color: #000000;
+	font-size: 1.5em;
+	position: relative;
+	
+}
+
+.price-month {
+	display: block;
+	color: #000000;
+	font-size: 0.9em;
+	position: relative;
+}
+
+.bubble {
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	top: -3.5em;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.bubble > i {
+	line-height: 6rem;
+}
+
+.bubble-1 {
+	background-color: rgb(49, 80, 134);
+}
+
+.bubble-2 {	
+	background-color: rgb(49, 80, 134);
+}
+
+.bubble-3 {
+	background-color: rgb(127, 54, 102);
+}
+
+.bubble-4 {
+	background-color: rgb(168, 218, 204);
+}
+
+.fa-share-alt {
+	position: relative;
+	left: -1px;
+	color: #ffffff;
+}
+
+.fa-server {
+	position: relative;
+	left: -1px;
+	bottom: -2px;
+	color: #ffffff;
+}
+
+.fa-desktop {
+	position: relative;
+	left: -0.5px;
+	bottom: -4px;
+	color: #ffffff;
+}
+
+.fa-envelope-o {
+	position: relative;
+	right: -1px;
+	top: -2px;
+	color: #ffffff;
+}
+
+
+.button {
+	width: 70%;
+	height: 10%;
+	padding: 0.75em;
+	border-radius: 0.5em;
+	background: rgb(226, 188, 39);
+	margin: 0.75em;
+}
+
+.find-out-more {
+	border-top: 1px solid rgb(204, 204, 204);
+	width: 100%;
+	background-color: rgb(247, 247, 247);
+}
+
+.text {
+	padding: 2em;
+}
+
+.text > p {
+	line-height: 1.5em;
+	display: inline-block;
+	height: 3em;
+	margin: 1.5em 0 3em;
+}
+
+
